@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homepage</title>
+    <style>
+        .title {
+            /* position: absolute; */
+            /* align-content: center; */
+            align-items: center;
+            text-align: center;
+            text-shadow: 1cm;
+            color: brown;
+            position: -ms-page;
+            background-color: orange;
+
+        }
+
+        .start {
+            position: static;
+            text-align: left;
+            animation-duration: 10ms;
+            animation-delay: 10ms;
+            color: brown;
+            animation-play-state: running;
+            animation-delay: 10ms;
+        }
+
+        .card {
+            width: 3cm;
+            height: 1cm;
+            border-radius: 20px;
+            padding: 6px;
+            box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+            animation: forwards;
+            margin-left: 70px;
+        }
+
+        .inquary {
+            background: rgb(251, 127, 3);
+            border-radius: 17px;
+            width: 100%;
+            height: 100%;
+        }
+
+        .contant {
+            padding-left: 7mm;
+            /* padding-top: 50mm; */
+            color: aliceblue;
+            /* background-color: aliceblue; */
+            font: large;
+        }
+
+        .features {
+            color: black;
+            padding-left: 2cm;
+            text-shadow: 10mm;
+        }
+
+        .list {
+            padding-left: 2cm;
+        }
+
+        .ourcources {
+            color: black;
+            padding-left: 2cm;
+            text-shadow: 10mm;
+            background-color: rgb(238, 122, 13);
+        }
+
+        .cources {
+            padding-left: 2cm;
+            flex-direction: row;
+            background-color: rgb(238, 122, 13);
+
+        }
+
+        .crce {
+            background-color: rgb(238, 122, 13);
+
+        }
+
+        .Decources {
+            padding-left: 10cm;
+            position: -ms-page;
+        }
+
+        /* .left {
+            float: left;
+            color: brown;
+
+        }
+
+
+        .right {
+            float: inline-end;
+            padding-top: 0.5cm;
+            padding-left: 10cm;
+            color: crimson;
+            /* padding-right: 6cm; */
+        /* }
+
+
+
+        .next {
+            float: left;
+            color: lightskyblue;
+        }
+
+        .bsc {
+            float: inline-end;
+            padding-top: 0.5cm;
+            padding-left: 10cm;
+            color: green;
+            /* padding-right: 6cm; 
+        } */
+        /*
+        .aviation {
+            float: left;
+            color: greenyellow;
+        }
+
+        .nursing {
+            float: inline-end;
+            padding-top: 0.5cm;
+            padding-left: 10cm;
+            color: blue;
+            /* padding-right: 6cm; 
+        }
+
+        .para {
+            float: left;
+            color: rgba(11, 1, 155, 0.692);
+        } */
+
+        .flex {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .achivement {
+            color: black;
+            padding-left: 2cm;
+            text-shadow: 10mm;
+        }
+
+        .achi {
+            padding-left: 2.5cm;
+        }
+
+        .student {
+            /* padding-left: 3cm; */
+            display: flex;
+            flex-direction: row;
+
+
+        }
+
+        .ment {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            flex-wrap: wrap;
+            color: black;
+        }
+
+        .inqnow {
+            color: black;
+            padding-left: 2cm;
+            text-shadow: 10mm;
+        }
+
+        .inqno {
+            color: black;
+            padding-left: 2.5cm;
+            text-shadow: 10mm;
+        }
+
+        .fname {
+            width: 100%;
+            height: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 15px;
+            box-sizing: border-box;
+            background-color: lightgreen;
+            background-image: url(C:\Users\Admin\Documents\html\html\newwebpage\students.JPG);
+        }
+
+        .sid {
+            padding-left: 3cm;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .pveer {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        /* .col{
+            background-color: rgb(228, 118, 15);
+        } */
+
+        .non {
+            display: flex;
+        }
+
+        .list {
+            margin-left: -65px;
+        }
+
+        .neo {
+            margin-left: 219px;
+            margin-top: 2px
+        }
+
+        .card20 {
+            width: 3cm;
+            height: 1cm;
+            border-radius: 20px;
+            padding: 6px;
+            box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+            animation: forwards;
+            margin-left: 70px;
+        }
+
+        .card11 {
+            background: rgb(251, 127, 3);
+            border-radius: 17px;
+            width: 100%;
+            height: 100%;
+        }
+
+        .student3 {
+            /* padding-left: 3cm; */
+            display: flex;
+            flex-direction: row;
+            width: 289px;
+            height: 112px;
+
+        }
+
+        /* .student4{
+            /* width: 140px; 
+            height: 126px;
+            
+        } */
+
+        .inqno1 {
+            color: black;
+            padding-left: 2.5cm;
+            text-shadow: 10mm;
+            padding-right: 2cm;
+        }
+
+        .navbar{
+            background-color: rgb(238, 122, 13);
+            background-color: rgb(238, 122, 13);
+            /* overflow: auto; */
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            flex-wrap: wrap;
+            height: 50px;
+            /* padding: 1cm; */
+        }
+        
+        .navebar ul{
+            overflow: auto;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+        }
+        
+        
+        .navebar li {
+            float:right;
+            list-style: none;
+        }
+        
+        .navbar li a{
+            padding: 3px 109px;
+            text-decoration: none;
+            /* color: white; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="title">
+        <h1>
+            <b>
+                Neotech Technical campus
+            </b>
+        </h1>
+
+        <h4 style="display: block;">content number 221578754755</h4>
+
+    </div>
+    <hr>
+    <!-- <div class="pveer">
+        <h3>
+            <b>
+
+                <ul class="pveer">
+                    <li> home </li>
+                    <li> student corner</li>
+                    <li>ERP login</li>
+                </ul>
+            </b>
+        </h3>
+    </div>
+
+
+    <hr> -->
+
+
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li type="blank" style="float: left;"><a href="#" color="red">Home page</a></li>
+                <li type="blank" style="float: left;"><a href="#"color="red">student corner</a> </li>
+                <li type="blank" style="float: left;"><a href="#"color="red">ERP login</a></li>
+                <li type="blank" style="float: left;"><a href="#"color="red">contant</a></li>
+            </ul>
+        </nav>
+
+
+    </header>
+    <!-- <br> -->
+    <hr>
+    <br>
+    <!-- <div>
+        <nav>
+            <h3>
+                homepage
+            </h3>
+        </nav>
+    </div> -->
+
+    <div class="start">
+        <h3>
+            <b>
+                <marquee loop="" scrollamount="10">The art of engineering @ NTC
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Many
+                    path one
+                    Destination.NTC!&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Hear
+                    is the future
+                    @NTC&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Come
+                    and be a part of the most lively campus </marquee>
+            </b>
+        </h3>
+    </div>
+    <div class="card">
+
+        <div class="inquary">
+            <br>
+            <b class="contant">
+
+                <a href="inquary.html">Inquary</a>
+            </b>
+
+        </div>
+
+    </div>
+    <br>
+    <div class="non">
+
+        <div class="features">
+            <h3>
+                <b>
+                    | Salient Features
+                </b>
+            </h3>
+
+            <!-- class name list -->
+            <div class="list">
+                <h3>
+                    <ul>
+                        <li> Just 6km away from vadodara Airport</li>
+                        <li> Outstanding Infrastructure</li>
+                        <li> Excellent learing Environment</li>
+                        <li> Rich Library with E-learing Facility</li>
+                        <li> 100% Placement Assistance</li>
+                        <li> MOUSs' & Collaboration with Industries & Laboratory etc...</li>
+                    </ul>
+                </h3>
+            </div>
+
+        </div>
+
+        <div class="neo">
+            <img src="C:\Users\Admin\Documents\html\html\newwebpage\download.jpg">
+            <!-- <i> Hear is the future</i> -->
+        </div>
+    </div>
+
+
+    <br>
+    <div class="crce">
+        <hr>
+
+
+        <div class="ourcources">
+            <h1>
+                | Our cources
+            </h1>
+        </div>
+        <br>
+        <div class="cources">
+
+            <h3>
+                <b>
+                    <i>
+                        <ul class="flex">
+                            <ul class="left">
+
+
+                                <h2> |Diploma engineering </h2>
+
+                                <li> Computer Engineering </li>
+                                <li> Mechinical Engineering </li>
+                                <li> Electrical Engineering </li>
+                                <li> Civil Engineering </li>
+
+                            </ul>
+
+                            <ul class="right">
+
+
+                                <h2> |Degree engineering </h2>
+
+                                <li> Computer Engineering </li>
+                                <li> Mechinical Engineering </li>
+                                <li> Electrical Engineering </li>
+                                <li> Civil Engineering </li>
+
+                            </ul>
+                            <ul class="next">
+
+
+                                <h2> |Physiotherapy </h2>
+
+                                <li> Bachelor of Physiotherapy </li>
+                                <li> Anatomy </li>
+                                <li> Physiology </li>
+                                <li> Pharmacology </li>
+
+                            </ul>
+
+                            <ul class="bsc">
+
+
+                                <h2> |Bachelor of Science(B.SC.) </h2>
+
+                                <li> Physics </li>
+                                <li> Chemistry </li>
+                                <li> Maths </li>
+                                <li> Microbiology </li>
+                                <li> Biochemistry </li>
+
+                            </ul>
+
+                            <ul class="aviation">
+
+
+                                <h2>| Aviation </h2>
+
+                                <li> Commerical pilot license </li>
+                                <li> Flight trainning </li>
+
+                            </ul>
+
+                            <ul class="nursing">
+
+
+                                <h2> |Nursing</h2>
+
+                                <li> B.SC. - Nursing </li>
+                                <li> A.N.M </li>
+
+                            </ul>
+
+                            <ul class="para">
+
+
+                                <h2> |Paramedical Science </h2>
+
+                                <li> Post Gratiution Diploma in medical laboratory Technology </li>
+                                <li> Diploma in medical laboratory Technology </li>
+                                <li> Diploma in Sanitary Inspector </li>
+
+                            </ul>
+                        </ul>
+                    </i>
+                </b>
+            </h3>
+
+
+
+        </div>
+
+
+        <br>
+    </div>
+    <hr>
+    <br>
+
+    <div class="achivement">
+        <h1>
+            <b>
+                |Our Achivement
+            </b>
+        </h1>
+    </div>
+
+    <br>
+    <div class="col">
+
+        <div class="achi">
+            <h3>
+                <i>
+                    <li>
+                        We beleave onlu a student can best decribe an Institute . Here is what our student have to
+                        say
+                        about
+                        Neotech Campus
+                    </li>
+                </i>
+            </h3>
+        </div>
+
+        <br>
+
+        <div class="ment">
+            <div class="student">
+                <img src="C:\Users\Admin\Documents\html\html\newwebpage\students.JPG">
+                <h2>
+                    <i>
+                        <b>
+                            5036 | Students
+                        </b>
+                    </i>
+                </h2>
+            </div>
+            <div class="student">
+                <img src="C:\Users\Admin\Documents\html\html\newwebpage\graduate.JPG">
+                <h2>
+                    <i>
+                        <b>
+                            3036 | Graduate
+                        </b>
+                    </i>
+                </h2>
+            </div>
+            <div class="student">
+                <img src="C:\Users\Admin\Documents\html\html\newwebpage\win.JPG">
+                <h2>
+                    <i>
+                        <b>
+                            1036 | Award win
+                        </b>
+                    </i>
+                </h2>
+            </div>
+            <div class="student">
+                <img src="C:\Users\Admin\Documents\html\html\newwebpage\books.JPG">
+                <h2>
+                    <i>
+                        <b>
+                            105036 | Books
+                        </b>
+                    </i>
+                </h2>
+            </div>
+
+        </div>
+        <br>
+    </div>
+    <hr>
+
+    <br>
+
+    <div class="inqnow">
+        <h1>
+            <b>
+                |Inquiry now
+            </b>
+        </h1>
+    </div>
+
+    <br>
+    <div class="2022">
+
+        <div class="inqno">
+            <h3>
+                <i>
+                    <b>
+                        <li>
+                            Admission is Going On. We are announcing Special discount for batch 2022.
+                        </li>
+                    </b>
+                </i>
+            </h3>
+        </div>
+
+        <!-- <br> -->
+        <br>
+        <br>
+        <div class="inqno">
+            <h2>
+                <b>
+                    2022|Admission
+                </b>
+            </h2>
+        </div>
+
+        <dic class="card20">
+            <div class="card11">
+
+                <h2 style="    margin-left: 1034px;
+                margin-top: -70px;;">
+                    Fill the form for more information
+                </h2>
+            </div>
+        </dic>
+    </div>
+    <!-- <br>
+    <br>
+    <br> -->
+
+    <div class="fname">
+        <div class="inqno">
+            <h2>
+                <b>
+                    |Get Free Inqiary now
+                </b>
+
+            </h2>
+        </div>
+
+
+        <br>
+
+        <div class="sid">
+
+            <h2>
+                <form style="margin-left: -4cm;">
+                    Name : <input placeholder=" full Name" title="full name" type="text">
+                    <br>
+                    <br>
+                    last name : <input placeholder="last Name" type="text">
+                    <br>
+                    <br>
+                    Mobile Number : <input placeholder="Mobile Number" type="number">
+                    <br>
+                    <br>
+                    Male/female : <input id="check" placeholder="male/female" type="checkbox">
+                    <label for="check">male</label>
+                    <input id="check" placeholder="male/female" type="checkbox">
+                    <label for="check">female</label>
+                    <br>
+                    <br>
+                    Email : <input placeholder="Email" type="email">
+                    <br>
+                    <br>
+                    <!-- <input type="submit"> -->
+                    <button>submit now</button>
+                </form>
+            </h2>
+            <div>
+                <img src="C:\Users\Admin\Documents\html\html\newwebpage\download.png" style="margin-top: 118px;">
+            </div>
+        </div>
+    </div>
+
+    <div>
+
+        <div class="inqnow">
+            <h1>
+                <b>
+                    |Our Team
+                </b>
+            </h1>
+        </div>
+
+        <div class="sid">
+            <h3>
+                <i>
+                    <b>
+                        A Team is made up of group Effort with INdividual Responsibilitiesnto commit to societal and
+                        institutional task.
+                    </b>
+                </i>
+            </h3>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <div class="inqnow">
+        <h1>
+            <b>
+                | Our Placement
+            </b>
+        </h1>
+
+    </div>
+
+    <br>
+    <div class="ment">
+
+
+        <div class="student3">
+            <img src="C:\Users\Admin\Documents\html\html\newwebpage\download (1).png">
+        </div>
+
+        <div class="student3">
+            <img src="C:\Users\Admin\Documents\html\html\newwebpage\download (2).png">
+        </div>
+
+        <div class="student3">
+            <img src="C:\Users\Admin\Documents\html\html\newwebpage\download (3).png">
+        </div>
+
+        <div class="student3">
+            <img src="C:\Users\Admin\Documents\html\html\newwebpage\download (2).png">
+        </div>
+
+    </div>
+
+    <br>
+    <br>
+
+
+    <hr>
+    <hr>
+
+    <div class="title">
+
+
+        <div class="ment">
+
+            <div>
+
+
+                <div class="inqnow">
+                    <h2>
+                        <b>
+                            About US
+                        </b>
+                    </h2>
+                </div>
+
+                <br>
+
+                <div class="inqno1">
+                    <h3>
+
+                        <i>
+
+                            <li>
+                                Education,practice leaning and livelihood reside here at the NTC campus . Come
+                                Together,let
+                                us build a bright future for the ourselves , society and country!
+                            </li>
+
+                        </i>
+
+                    </h3>
+                </div>
+
+            </div>
+
+            <div>
+
+
+                <div>
+                    <h2>
+                        <b>
+                            Admission
+                        </b>
+                    </h2>
+                </div>
+
+                <div>
+                    <li> After 10 </li>
+                    <li> After 12 science </li>
+                    <li> After 12 Commerce </li>
+                    <li> After 12 Art </li>
+                    <li> Degree Engineering </li>
+                    <li> Short Courses </li>
+                    <li> Institute Scholarship </li>
+                    <li> Apply Now </li>
+                </div>
+
+            </div>
+
+
+            <div>
+
+
+                <div>
+                    <h2>
+                        <b>
+                            Courses Offered
+                        </b>
+                    </h2>
+                </div>
+
+                <div>
+                    <li> Under Graduate programmes </li>
+                    <li> Graduate programmes </li>
+                    <li> Diploma cources </li>
+                    <li> Aviation </li>
+                    <li> Bachelor of Science </li>
+                    <li> Physiotherapy </li>
+                    <li> Paramedical science </li>
+
+                </div>
+
+            </div>
+
+            <div>
+                <h2>
+                    <b>
+                        contant us
+                    </b>
+                </h2>
+
+
+
+                <p>
+                    <li>
+                        Virod,Harni-virod Road , Vadodara. 390022.
+                    </li>
+                    <li>
+                        info@neotech.ac.in
+                    <li>
+                    <li>
+                        +9128392397423
+                    </li>
+                    <li>
+                        +913987327623
+                    </li>
+                </p>
+            </div>
+        </div>
+
+        <br>
+
+        <img src="C:\Users\Admin\Documents\html\html\newwebpage\download (2).jpg" style="height: 504px;">
+
+    </div>
+
+    <hr>
+    </div>
+
+    <div class="title">
+        <br>
+        <i>
+            <h2>
+                Copyright NEOTECH EDUCATION CAMPUS . All right reserved.
+            </h2>
+        </i>
+        <i>
+            <h2>
+                Feedback &emsp; Careers &emsp; Discalimer &emsp; Grievance
+            </h2>
+        </i>
+    </div>
+</body>
+
+</html>
