@@ -1,0 +1,129 @@
+<div class="cources">
+        <h3>
+            <b>
+                <i>
+                    <ul>
+                        <details>
+                            <summary>
+                                Diploma engineering
+                            </summary>
+                            <li> Computer Engineering </li>
+                            <li> Mechinical Engineering </li>
+                            <li> Electrical Engineering </li>
+                            <li> Civil Engineering </li>
+                        </details>
+                    </ul>
+
+                    <ul>
+                        <details>
+                            <summary>
+                                Degree engineering
+                            </summary>
+                            <li> Computer Engineering </li>
+                            <li> Mechinical Engineering </li>
+                            <li> Electrical Engineering </li>
+                            <li> Civil Engineering </li>
+                        </details>
+                    </ul>
+                    <ul>
+                        <details>
+                            <summary>
+                                Physiotherapy
+                            </summary>
+                            <li> Bachelor of Physiotherapy </li>
+                        </details>
+                    </ul>
+
+                    <ul>
+                        <details>
+                            <summary>
+                                Bachelor of Science(B.SC.)
+                            </summary>
+                            <li> Physics </li>
+                            <li> Chemistry </li>
+                            <li> Maths </li>
+                            <li> Microbiology </li>
+                            <li> Biochemistry </li>
+                        </details>
+                    </ul>
+
+                    <ul>
+                        <details>
+                            <summary>
+                                Aviation
+                            </summary>
+                            <li> Commerical pilot license </li>
+                            <li> Classroom teaching and flight trainning </li>
+                        </details>
+                    </ul>
+
+                    <ul>
+                        <details>
+                            <summary>
+                                Nursing
+                            </summary>
+                           <li> B.SC. - Nursing </li>
+                           <li> A.N.M </li>
+                       </details>
+                   </ul>
+
+                   <ul>
+                    <details>
+                        <summary>
+                            Paramedical Science
+                        </summary>
+                       <li> Post Gratiution Diploma in medical laboratory Technology </li>
+                       <li> Diploma in medical laboratory Technology </li>
+                       <li> Diploma in Sanitary Inspector </li>
+                   </details>
+               </ul>
+                </i>
+            </b>
+        </h3>
+
+    </div>
+
+
+
+
+    
+    <div>
+        <div class="cources">
+            <h3>
+                <b>
+                    <i>
+                        | Diploma Engineering
+                    </i>
+                </b>
+            </h3>
+
+            <h4>
+                <ul>
+                    <li>Computer Engineering </li>
+                    <li>Mechanical Engineering </li>
+                    <li>Civil Engineering </li>
+                    <li>Electrical Engineering </li>
+                </ul>
+            </h4>
+        </div>
+
+        <div class="Decources">
+            <h3>
+                <b>
+                    <i>
+                        | Degree Engineering
+                    </i>
+                </b>
+            </h3>
+
+            <h4>
+                <ul>
+                    <li>Computer Engineering </li>
+                    <li>Mechanical Engineering </li>
+                    <li>Civil Engineering </li>
+                    <li>Electrical Engineering </li>
+                </ul>
+            </h4>
+        </div>
+
+    </div>
