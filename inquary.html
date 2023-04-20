@@ -1,26 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .oper{
+            display: flex;
+            justify-self:auto;
+        }
+    </style>
 </head>
+
 <body>
-    <h1 align = "center">
-        Calculator
-    </h1>
-    <div align = "center">
-        <form method="post" action = "cal1.php">
-            Enter the 1 number <input type = "text" name = "num1"><br>
+    <div class="form1">
+
+        <form>
+            Enter the 1 number <input type="text" name="num1" id="num1"><br>
+            Enter the 2 number <input type="text" name="num2" id="num2"><br>
             Enter the operator <br>
-             + <input type ="radio" name = "oper" value="+"><br>
-             - <input type ="radio" name = "oper" value="-"><br>
-             * <input type ="radio" name = "oper" value="*"><br>
-             / <input type ="radio" name = "oper" value="/"><br>
-            Enter the 2 number <input type = "text" name = "num2"><br>
-            <input type="submit" value="submit" name="submit">
+            <div class="oper">
+
+                + <input type="button" onclick="add()" name="oper" value="+"><br>
+                - <input type="button" onclick="sub()" name="oper" value="-"><br>
+                * <input type="button" onclick="mul()" name="oper" value="*"><br>
+                / <input type="button" onclick="div()" name="oper" value="/"><br>
+            </div>
         </form>
+        
     </div>
+    <br><br>The answer is : <span id="result">Result</span>
 </body>
+<script>
+    function add() {
+        num1 = parseInt(document.getElementById("num1").value);
+        num2 = parseInt(document.getElementById("num2").value);
+        document.getElementById("result").innerHTML=num1+num2;
+        //document.write("Result : ", + (num1+num2));
+    }
+    function sub() {
+        num1 = parseInt(document.getElementById("num1").value);
+        num2 = parseInt(document.getElementById("num2").value);
+        document.getElementById("result").innerHTML=num1-num2;
+        //document.write("Result : ", + (num1+num2));
+    }
+    function mul() {
+        num1 = parseInt(document.getElementById("num1").value);
+        num2 = parseInt(document.getElementById("num2").value);
+        document.getElementById("result").innerHTML=num1*num2;
+        //document.write("Result : ", + (num1+num2));
+    }
+    function div() {
+        num1 = parseInt(document.getElementById("num1").value);
+        num2 = parseInt(document.getElementById("num2").value);
+        document.getElementById("result").innerHTML=num1/num2;
+        //document.write("Result : ", + (num1+num2));
+    }
+</script>
+
 </html>
