@@ -266,37 +266,40 @@
         }
 
         .navbar{
-            background-color: rgb(238, 122, 13);
-            background-color: rgb(238, 122, 13);
-            /* overflow: auto; */
-            display: flex;
-            justify-content: space-around;
-            flex-direction: row;
-            flex-wrap: wrap;
-            height: 50px;
-            /* padding: 1cm; */
+            background-color: yellowgreen;
+            border-radius: 5px;
         }
-        
-        .navebar ul{
+        .navbar ul{
             overflow: auto;
-            display: flex;
-            justify-content: space-around;
-            flex-direction: row;
-            flex-wrap: wrap;
-            
+            margin: auto 13px;
         }
-        
-        
-        .navebar li {
-            float:right;
+        .navbar li{
+            float: left;
             list-style: none;
+            margin: 11px 22px;
+        }
+        .navbar li a{
+            padding: 11px 19px;
+            text-decoration: none;
+            /* color: blue; */
+        }
+        a:hover{
+            color: rgb(197, 23, 148);
+            /* background-color: rgb(54, 24, 189); */
+        }
+        .searchmenu{
+            margin-left: 90px;
+        }
+        .search{
+            border-radius: 13px;
+            background-color: lightblue;
+            border: none;
+        }
+        .buttonsearch{
+            background-color: yellowgreen;
+            border: none;
         }
         
-        .navbar li a{
-            padding: 3px 109px;
-            text-decoration: none;
-            /* color: white; */
-        }
     </style>
 </head>
 
@@ -332,14 +335,18 @@
     <header>
         <nav class="navbar">
             <ul>
-                <li type="blank" style="float: left;"><a href="#" color="red">Home page</a></li>
-                <li type="blank" style="float: left;"><a href="#"color="red">student corner</a> </li>
-                <li type="blank" style="float: left;"><a href="#"color="red">ERP login</a></li>
-                <li type="blank" style="float: left;"><a href="#"color="red">contant</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contect us</a></li>
+                <li>
+                <div class="searchmenu">
+                    <input type="text" class="search" placeholder="search"><button class="buttonsearch">🔍</button></input>
+                </div>
+            </li>
             </ul>
+
         </nav>
-
-
     </header>
     <!-- <br> -->
     <hr>
